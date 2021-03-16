@@ -1,0 +1,1 @@
+Configuração do Visual Studio Code
