@@ -1,0 +1,51 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  {
+    "key": "ctrl+shift+up",
+    "command": "editor.action.copyLinesUpAction",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+down",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "editor.action.joinLines",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+i",
+    "command": "wwm.aligncode",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+alt+p",
+    "command": "workbench.action.files.copyPathOfActiveFile",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+s",
+    "command": "workbench.action.files.saveAll"
+  },
+  {
+    "key": "ctrl+shift+alt+s",
+    "command": "workbench.action.files.saveAs"
+  },
+  {
+    "key": "ctrl+shift+c",
+    "command": "workbench.action.terminal.openNativeConsole",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+alt+c",
+    "command": "copyFilePath",
+    "when": "!editorFocus"
+  },
+  {
+    "key": "ctrl+shift+alt+c",
+    "command": "copyRelativeFilePath",
+    "when": "!editorFocus"
+  }
+]

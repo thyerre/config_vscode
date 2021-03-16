@@ -1,0 +1,51 @@
+{
+  "intelephense.diagnostics.undefinedTypes": false,
+  "intelephense.diagnostics.undefinedMethods": false,
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  // intelephense.diagnostics.undefinedTypes,
+  // intelephense.diagnostics.undefinedFunctions,
+  // intelephense.diagnostics.undefinedConstants
+  // intelephense.diagnostics.undefinedClassConstants
+  // intelephense.diagnostics.undefinedProperties
+  // intelephense.diagnostics.undefinedVariables
+  "workbench.iconTheme": "material-icon-theme",
+  "window.zoomLevel": 0,
+  "gitlens.codeLens.enabled": false,
+  // "editor.rulers": [120],
+  "[php]": {
+    // "editor.formatOnSave": true,
+    // "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+    "editor.defaultFormatter": "junstyle.php-cs-fixer"
+  },
+  "explorer.compactFolders": false,
+  "workbench.editor.labelFormat": "short",
+  "editor.tabSize": 4,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[html]": {
+    // "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "HookyQR.beautify",
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "php-cs-fixer.formatHtml": true,
+  "php-cs-fixer.rules": "@PhpCsFixer",
+  // "php-cs-fixer.rules": "@PSR2",
+  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+  // "php-cs-fixer.pathMode":"intersection",
+  "php-cs-fixer.lastDownload": 1615293391801
+  // "workbench.colorTheme": "Default Dark+",
+}
